@@ -10,7 +10,7 @@ class App < Sinatra::Base
   end
 
   post '/puppy' do
-  Puppy.new
+  
   @name = params['name']
   @age = params['age']
   @breed = params['breed']
